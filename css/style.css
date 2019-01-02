@@ -1,0 +1,361 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+.container
+{
+    width: 95%;
+    margin: 0 auto;
+}
+
+header
+{
+    height: 750px;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+header .container
+{
+    overflow: hidden;
+}
+
+header .container h2
+{
+    color: #ccc;
+    text-transform: capitalize;
+    padding-top: 15px;
+    float: left;
+}
+
+header .container h2 > span
+{
+    color: #F05F40;
+}
+
+
+header .container ul
+{
+    list-style: none;
+    float: right;
+    padding-top: 15px;
+    font-size: 1.2em;
+}
+
+header .container ul li
+{
+    display: inline-block;
+    text-transform: capitalize;
+    color: #ccc;
+    margin-right: 50px;
+}
+
+header .container ul li a
+{
+    color: #ccc;
+    text-decoration: none;
+}
+
+header .container ul li a:hover
+{
+    color: #F05F40;
+}
+
+
+.clear
+{
+    clear: both;
+}
+
+header .container > p
+{
+    color: white;
+    text-transform: capitalize;
+    margin: 150px 0 30px 0;
+    font-size: 80px;
+}
+
+header .container hr
+{
+    width: 50px;
+    margin: auto;
+    border: 1.5px solid #F05F40;
+}
+
+header .container p .first
+{  
+    margin-left: 170px;
+}
+
+header .container .start
+{
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 350px;
+    line-height: 1.4;
+    color: #ccc;
+}
+
+header .container .start > p
+{
+    margin-right: 100px;
+}
+
+
+.second
+{
+    margin-left: 10px;
+}
+
+header .container button
+{
+    color: white;
+    text-transform: capitalize;
+    margin-top: 50px;
+    background: #f50;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+header .container button:hover
+{
+    animation: test .5s ease-in-out both;
+}
+
+main .get-started 
+{
+    background: #F05F40;
+    text-align: center;
+}
+
+main .get-started .container h2
+{
+    color: white;
+    padding-top: 90px;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+main .get-started .container hr
+{
+    width: 50px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1.5px solid white;
+}
+
+main .get-started .container p
+{
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-left: 50px;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+main .get-started .container button
+{
+    color: black;
+    text-transform: capitalize;
+    margin-top: 50px;
+    margin-left: 15px;
+    background: white;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 20px;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 100px;
+}
+
+main .get-started .container button:hover
+{
+    animation: test .5s ease-in-out both;
+}
+
+main .service
+{
+    text-align: center;
+    height: 300px;
+}
+
+main .service h3
+{
+    margin-top: 60px;
+    text-transform: capitalize;
+}
+
+main .service hr
+{
+    width: 50px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1.5px solid #F05F40;
+}
+
+main .service .icon div
+{
+    display: inline-block;
+    width: 20%;
+    margin-top: 70px;
+}
+
+main .service .icon div h5 , p
+{
+    text-transform: capitalize;
+}
+
+
+main .service .icon div .fa
+{
+    font-size: 40px;
+    color: #F05F40;
+    margin-bottom: 10px;
+}
+
+main .service .icon div h5
+{
+    margin-bottom: 7px;
+}
+
+main .image .container .img
+{
+    overflow: hidden;
+}
+
+main .image .container .img img
+{
+    float: left;
+    width: 32%;
+    margin-left: 1%;
+    margin-bottom: 10px;
+}
+
+main .download
+{
+    background: #212529;
+    text-align: center;
+    height: 250px;
+}
+
+main .download .container p
+{
+    text-transform: capitalize;
+    padding-top: 60px;
+    color: white;
+    font-size: 30px;
+}
+
+main .download .container button
+{
+    color: black;
+    text-transform: capitalize;
+    margin-top: 50px;
+    margin-left: 15px;
+    background: white;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 20px;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 100px;
+}
+
+main .download .container button:hover
+{
+    animation: test .5s ease-in-out both;
+}
+
+footer
+{
+    text-align: center;
+    height: 350px;
+}
+
+footer .container .touch p:first-of-type
+{
+    color: #212529;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+footer .container .touch hr
+{
+    width: 50px;
+    margin: auto;
+    margin-top: 25px;
+    border: 1.5px solid #F05F40;
+}
+
+footer .container .touch p:last-of-type
+{
+    color: #212529;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+footer .container .call div
+{
+    display: inline-block;
+    width: 20%;
+    margin-top: 70px;
+    margin-right: 40px; 
+}
+
+footer .container .call div .fa
+{
+    font-size: 50px;
+    color: #212529;
+    margin-bottom: 10px;
+}
+
+footer .container .call div .fa:hover
+{
+    animation: rotation 1s ease-in-out both;
+}
+
+
+
+@keyframes test
+{
+    from {
+        padding: 15px 20px;
+    }
+
+    to {
+        padding: 15px 40px;
+    }
+}
+
+
+@keyframes rotation
+{
+    0% {transform: rotate(30deg)}
+
+    50% {transform: rotate(-30deg)}
+
+    100% {transform: rotate(30deg)}
+}
+
+.scrollTop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    margin-bottom: 30px;
+    background: #7cb62f;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}

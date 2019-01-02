@@ -1,0 +1,406 @@
+@media (max-width: 575px){
+
+    header .container h2 , header .container ul
+    {
+        float: none;
+        margin-left: 20px;
+    }
+
+    header .container
+    {
+        text-align: left;
+        width: 100%;
+    }
+
+    header .container ul
+    {
+        width: 100%;
+    }
+
+    header .container ul li
+    {
+        margin-right:30px;
+    }
+
+    header .container > p
+    {
+        font-size: 35px;
+        margin-left: 60px;
+        margin-top: 80px;
+    }
+
+    header .container p .first
+    {
+        margin-left: 0;
+    }
+
+    header .container button
+    {
+        margin-left: 175px;
+        margin-top: 170px;
+    }
+
+    header .container .start
+    {
+        width: 100%;
+        margin-left: 70px;
+    }
+
+    .second
+    {
+        margin-left: 10px;
+    }
+
+    main .get-started .container
+    {
+        width: 100%;
+    }
+
+    main .get-started .container h2
+    {
+        font-size: 25px;
+    }
+
+    main .service .icon
+    {
+        width: 100%;
+        font-size: .9em
+    }
+
+    main .service .icon div
+    {
+        width: 40%;
+    }
+
+    main .image .container
+    {
+        width: 100%;
+    }
+
+    main .image .container .img
+    {
+        margin-top: 190px;
+        width: 100%
+    }
+
+    main .image .container .img img
+    {
+        float: none;
+        width: 25%;
+        margin-left: 25px;
+    }
+
+    main .download .container
+    {
+        width: 100%;
+    }
+
+    main .download .container p
+    {
+        font-size: 20px;
+    }
+
+
+    footer .container
+    {
+        width: 100%;
+    }
+
+    footer .container .touch p:first-of-type
+    {
+        font-size: 25px;
+    }
+
+    footer .container .touch p:last-of-type
+    {
+        font-size: 15px; 
+    }
+
+    footer .container .call div .fa
+    {
+        font-size: 30px;
+    }
+
+    footer .container .call div
+    {
+        width: 50%;
+        margin-bottom: 70px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+
+    header .container
+    {
+        width: 100%;
+    }
+
+    header .container h2
+    {
+        margin: 13px 0 0 15px;
+    }
+
+    header .container ul
+    {
+        float: none;
+        margin-top: 15px;
+    }
+
+    header .container ul li
+    {
+        margin-right: 20px;
+    }
+
+    header .container > p
+    {
+        font-size: 45px;
+        margin-left: 60px;
+        margin-top: 150px;
+    }
+
+    header .container p .first
+    {
+        margin-left: 0;
+    }
+
+    header .container .start
+    {
+        width: 100%;
+        margin-left: 70px;
+    }
+
+    main .get-started .container
+    {
+        width: 100%;
+    }
+
+    main .get-started .container > p
+    {
+        padding-right: 15px;
+    }
+
+    main .service .icon
+    {
+        width: 100%;
+        font-size: .9em
+    }
+
+    main .image .container
+    {
+        width: 100%;
+    }
+
+    main .download .container
+    {
+        width: 100%;
+    }
+
+    main .download .container p
+    {
+        font-size: 20px;
+    }
+
+    footer .container
+    {
+        width: 100%;
+    }
+
+    footer .container .call
+    {
+        margin-bottom: 20px;
+    }
+
+    footer .container .call div .fa
+    {
+        font-size: 40px;
+    }
+}
+
+@media (min-width:769px) and (max-width: 991px){
+    
+    header .container
+    {
+        width: 100%;
+    }
+
+    header .container h2
+    {
+        margin: 13px 0 0 15px;
+    }
+
+    header .container ul
+    {
+        width: 100%;
+        float: none;
+        margin-top: 15px;
+    }
+
+    header .container ul li
+    {
+        margin-left: 20px;
+    }
+
+    header .container > p
+    {
+        font-size: 45px;
+        margin-left: 60px;
+        margin-top: 150px;
+    }
+
+    header .container p .first
+    {
+        margin-left: 0;
+    }
+
+    header .container .start
+    {
+        width: 100%;
+        margin-left: 70px;
+    }
+
+    main .get-started .container
+    {
+        width: 100%;
+    }
+
+    main .get-started .container > p
+    {
+        padding-right: 15px;
+    }
+
+    main .service .icon
+    {
+        width: 100%;
+        font-size: .9em
+    }
+
+    main .image .container
+    {
+        width: 100%;
+    }
+
+    main .download .container
+    {
+        width: 100%;
+    }
+
+    main .download .container p
+    {
+        font-size: 20px;
+    }
+
+    footer .container
+    {
+        width: 100%;
+    }
+
+    footer .container .call
+    {
+        margin-bottom: 20px;
+    }
+
+    footer .container .call div .fa
+    {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1170px){
+
+    header.container
+    {
+        width: 100%;
+    }
+
+    header .container h2
+    {
+        margin: 13px 0 0 15px;
+    }
+
+    header .container ul
+    {
+        width: 100%;
+        float: none;
+        margin-top: 15px;
+    }  
+
+    header .container > p
+    {
+        width: 100%;
+        font-size: 45px;
+        margin-left: 60px;
+        margin-top: 150px;
+    }
+
+    header .container p .first
+    {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    header .container .start
+    {
+        width: 100%;
+        margin-left: 70px;
+    }
+
+    main .get-started .container
+    {
+        width: 100%;
+    }
+
+    main .get-started .container > p
+    {
+        padding-right: 15px;
+    }
+
+    main .service .icon
+    {
+        width: 100%;
+        font-size: .9em
+    }
+
+    main .image .container
+    {
+        width: 100%;
+    }
+
+    main .download .container
+    {
+        width: 100%;
+    }
+
+    main .download .container p
+    {
+        font-size: 20px;
+    }
+
+    footer .container
+    {
+        width: 100%;
+    }
+
+    footer .container .call
+    {
+        margin-bottom: 20px;
+    }
+
+    footer .container .call div .fa
+    {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 1171px){
+
+    header .container .start > p
+    {
+        margin-right: 0;
+    }
+
+    header .container p .first
+{  
+    margin-left: 0;
+}
+}
